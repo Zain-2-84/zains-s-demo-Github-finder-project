@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Finder</title>
+
+    <!-- style.css (main) -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- mobile.css -->
+    <link rel="stylesheet" href="./mobile.css" />
+
+    <!-- tablet.css -->
+    <link rel="stylesheet" href="./tablet.css" />
+
+    <!-- wide_Screen.css -->
+    <link rel="stylesheet" href="./wide_Screen.css" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar start -->
+     <nav id="navbar">
+        <span><i class="fa-brands fa-github fa-3x logo-img"></i></span>
+        <h1 class="logo-name"><a href="#home">GitHub Finder.</a></h1>
+     </nav>
+    <!-- Navbar end -->
+
+    <!-- Main start -->
+     <main>
+      <div class="container">
+        <h1>Enter a Github user below:</h1>
+
+        <form id="user1">
+          <input type="text" class="userName" name="userName" id="userName" placeholder="someone@example.com">
+          <button class="userSearch" type="button">Search</button>
+        </form>
+        <div id="profile"></div>
+      </div>
+     </main>
+    <!-- Main end -->
+  </body>
+</html>
