@@ -28,24 +28,53 @@
   </head>
   <body>
     <!-- Navbar start -->
-     <nav id="navbar">
-        <span><i class="fa-brands fa-github fa-3x logo-img"></i></span>
-        <h1 class="logo-name"><a href="#home">GitHub Finder.</a></h1>
-     </nav>
+    <nav id="navbar">
+      <span><i class="fa-brands fa-github fa-3x logo-img"></i></span>
+      <h1 class="logo-name"><a href="#home">GitHub Finder.</a></h1>
+    </nav>
     <!-- Navbar end -->
 
     <!-- Main start -->
-     <main>
+    <main>
       <div class="container">
         <h1>Enter a Github user below:</h1>
 
         <form id="user1">
-          <input type="text" class="userName" name="userName" id="userName" placeholder="someone@example.com">
+          <input
+            type="text"
+            class="userName"
+            name="userName"
+            id="userName"
+            placeholder="someone@example.com"
+          />
           <button class="userSearch" type="button">Search</button>
         </form>
-        <div id="profile"></div>
       </div>
-     </main>
+      
+      <div id="profile">
+        <!-- Profile 1 start -->
+        <div class="profile">
+          <div class="profile-card">
+            <img src="" alt="User Avatar" />
+            <h2>Dummy user 1.</h2>
+            <p>Bio: This is some text about this person.</p>
+            <p>Location: Sample location 1.</p>
+          </div>
+        </div>
+        <!-- Profile 1 end -->
+
+        <!-- Profile 2 start -->
+        <div class="profile">
+          <div class="profile-card">
+            <img src="" alt="User Avatar" />
+            <h2>Dummy user 2.</h2>
+            <p>Bio: This is some text about this person.</p>
+            <p>Location: Sample location 2.</p>
+          </div>
+        </div>
+        <!-- Profile 2 end -->
+      </div>
+    </main>
     <!-- Main end -->
   </body>
 </html>
