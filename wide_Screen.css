@@ -1,0 +1,13 @@
+@media (min-width: 769px){
+    .container h1{
+        font-size: 2rem;
+    }
+
+    .container{
+        height: 40vh;
+    }
+
+    #profile{
+        height: 40vh;
+    }
+}
