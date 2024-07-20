@@ -56,12 +56,23 @@
 }
 
 /* Profile 1 and 2 start */
-.profile{
+#profile{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    height: 100vh;
+    text-align: center;
+    /* justify-content: center;
+    align-content: center; */
+    /* flex: 1; */
+    /* flex-wrap: wrap; */
+}
+
+#profile .profile-card{
     flex: 1;
-    flex-wrap: wrap;
+    
+}
+
+.profile-card img{
+    width: 30vw;
 }
 /* Profile 1 and 2 end */
 
@@ -84,6 +95,5 @@
     align-items: center;
     justify-content: center;
 } */
-
 
 /* container (main) end */
